@@ -23,11 +23,11 @@ a = 'Abid'
 print(type(a))  
 
 
-# a = input("inter 1st number: ")
-# b = input("inter 2nd number: ")
+a = input("inter 1st number: ")
+b = input("inter 2nd number: ")
 
-# sum = int(a) + int(b) 
-# print(sum) 
+sum = int(a) + int(b) 
+print(sum) 
 
 #slice
 
@@ -41,4 +41,40 @@ b = float(input( "inter your 2nd number: "))
 
 sum= a + b 
 print(sum)
-print(type(sum))
+print(type(sum))  
+
+#upperCase
+
+a = "welcome to python and django"
+print(a.upper())
+
+#lowerCase 
+
+a = "welCome to Python and Django"
+print(a.lower()) 
+
+# strip (remove extra space) 
+
+a = "   welcome to python and django   "
+print(a.strip())
+
+#split 
+
+a = "welcome to python and django"
+print(a.split()) 
+
+# concatenation 
+
+a = "welcome to python and django"
+print("you are " + a) 
+
+# count
+
+a = "welcome to python and django"
+print(a.count("o")) 
+
+# len 
+
+a = "welcome to python and django"
+print(len(a))  
+
